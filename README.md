@@ -1,0 +1,1 @@
+# smartrevise-gimmick-ipad
