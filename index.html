@@ -1,0 +1,13 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Smart Revise Bot</title><style>body{font:16px -apple-system,BlinkMacSystemFont,sans-serif;max-width:760px;margin:40px auto;padding:0 20px;line-height:1.55;color:#201d3b}.card{background:#f3f4fb;padding:18px;border-radius:14px;margin:18px 0}code{background:#e7e9f4;padding:2px 5px;border-radius:5px}</style></head><body><h1>Smart Revise Gimmick-style Bot</h1><p>A Safari bookmarklet prototype for adding a floating auto-answer panel to Smart Revise.</p><div class="card"><h2>Quick setup</h2><ol><li>Publish this repository with GitHub Pages using the <code>/public</code> folder.</li><li>Create a Safari bookmark named <b>Smart Revise Bot</b>.</li><li>Replace its URL with the bookmarklet in README.md.</li><li>Open a Smart Revise question and tap the bookmark.</li></ol></div><p>Experimental prototype: detection depends on Smart Revise's page HTML and may need tuning after testing.</p>
+<div class="card">
+<h2>New: select page elements</h2>
+<ol>
+<li>Tap <b>Select question area</b>, then tap the question text.</li>
+<li>Tap <b>Select one answer button</b>, then tap one answer choice. The script attempts to find the other answer buttons in the same group.</li>
+<li>Tap <b>Select Next Question button</b>, then tap the next button.</li>
+<li>Selections are stored in Safari local storage. Use <b>Reset selections</b> if the page layout changes.</li>
+</ol>
+<p>This selects webpage elements, not screen coordinates. It requires readable text and clickable controls in the page's DOM.</p>
+</div>
+
+</body></html>
